@@ -85,7 +85,7 @@ if(isset($id)){
     $webhook = true;
     if($webhook == true){
 
-        $webhookURL = "https://discord.com/api/webhooks/826808114706776104/erskOPvLjjdjAtzzQmqw_eXDvRO-n26b5y-c1O_dTY9GBtUoXm9OjGo_R8T-nGL7Vl1y";
+        $webhookURL = "";
 
         $WebhookObj = json_encode([
             "username" => "Verification-Logs",
