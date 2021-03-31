@@ -1,2 +1,1 @@
-# DiscordVerifyPHP-JS
- 
+Este bot verificará se os dados do usuário estão no site, caso contrário, uma mensagem será enviada ao usuário para que ele possa se cadastrar no bot. Após aceitar os termos propostos pelo bot, o usuário deverá digitar novamente !verify no canal de verificação indicada no config.json.
