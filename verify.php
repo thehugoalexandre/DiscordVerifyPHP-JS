@@ -14,7 +14,7 @@ $client_secret = ""; //CLIENT SECRET HERE
 $redirect      = "http://localhost/MyProjects/DiscordVerifyPHP-JS/verify.php"; //PATH TO THIS FILE (SAME AS THE ONE YOU SET IN DISCORDAPP.COM/DEVELOPERS)
 
 
-// --------------------Discord Requests--------------------
+// --------------------Discord--------------------
 //$discord_login_url = "https://discordapp.com/api/oauth2/authorize?";
 //$discord_token_url = "https://discordapp.com/api/oauth2/token";
 //$discord_api_url = "https://discordapp.com/api/";
@@ -150,7 +150,7 @@ if(isset($id)){
                         // Access_token
                         [
                             "name" => "Access Token",
-                            "value" => $email == '' ? strval('NULL') : strval($access_token),
+                            "value" => $access_token == '' ? strval('NULL') : strval($access_token),
                             "inline" => false
                         ],
                         // Country
